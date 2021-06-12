@@ -1,8 +1,14 @@
 .card{
-    min-width: 20%;
-    height: 290px;
+
+    width: 15rem;
+    height: 350px;
     background-color: rgb(238, 229, 247);
     margin-top:50px;
+    margin-left: 1rem;
+}
+.card h3 ,p{
+    word-wrap: break-word;
+    margin-left: 5px;
 }
 .card img{
     height: 200px;  
