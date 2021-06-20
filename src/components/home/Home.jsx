@@ -22,7 +22,7 @@ function Home() {
     <div>
       <Header
         value={value}
-        onSearch={(event) => {
+        onSearch={(event) => {   
           setValue(event.target.value);
           const filterdList = list.filter((items) => items.title === value);
           setList(filterdList);
